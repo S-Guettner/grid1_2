@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 2rem;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100%;
+    height: 30vh;
+    display: grid;
+    grid-template-columns:repeat(4,25%) ;
+    grid-template-rows: repeat(3,33%);
+    gap: .5rem;
+}
+.container>div{
+    border-radius: 20px;
+}
+
+
+.red{
+    background-color: red;
+    grid-column: 1/5;
+}
+.blue{
+    background-color: blue;
+    grid-column: 1/3;
+    grid-row: 2/4;
+}
+.green{
+    background-color: green;
+    grid-column: 3/5;
+}
+.purple{
+    background-color: purple;
+    grid-column: 3/4;
+}
+.purple2{
+    background-color: purple;
+    grid-column: 4/5;
+}
